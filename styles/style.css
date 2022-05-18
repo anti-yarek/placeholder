@@ -1,0 +1,29 @@
+@font-face {
+    font-family: podkova;
+    src: url(assets/fonts/podkova_[allfont.ru]);
+}
+.background {
+    background-color: #fe1f1f;
+    margin: 0 auto;
+    width: 428px;
+    height: 926px;
+}
+.placeholder {
+    font-family: podkova;
+    color: #75FF2B;
+    text-transform: uppercase;
+    text-align: left;
+    margin-left: -2px;
+    margin-top: -165px;
+    font-size: 38.9px;
+    max-width: 428px;
+}
+span.stretch {
+    display:inline-block;
+    -webkit-transform:scale(1,23.8); /* Safari and Chrome */
+    -moz-transform:scale(1,23.8); /* Firefox */
+    -ms-transform:scale(1,23.8); /* IE 9 */
+    -o-transform:scale(1,23.8); /* Opera */
+    transform:scale(1,23.8); /* W3C */
+    transform-origin: 0 0;
+}

@@ -1,0 +1,55 @@
+body {
+    background-color: #fe1f1f;
+}
+@font-face {
+    font-family: podkova;
+    src: url(assets/fonts/podkova_[allfont.ru]);
+}
+.placeholder {
+    font-family: podkova;
+    color: #75FF2B;
+    text-transform: uppercase;
+    text-align: left;
+    margin-top: -72px;
+    margin-left: -5px;
+    margin-right: -5px;
+    font-size: 316.1px;
+    max-width: 428px;
+}
+span.stretch {
+    display:inline-block;
+    -webkit-transform:scale(0.2,1.23); /* Safari and Chrome */
+    -moz-transform:scale(0.2,1.23); /* Firefox */
+    -ms-transform:scale(0.2,1.23); /* IE 9 */
+    -o-transform:scale(0.2,1.23); /* Opera */
+    transform:scale(0.2,1.23); /* W3C */
+    transform-origin: 0 0;
+    line-height: 240px;
+}
+.menu {
+    font-family: podkova;
+    color: #75FF2B;
+    text-transform: uppercase;
+    text-align: left;
+    margin-left: -5px;
+    margin-top: 180px;
+    font-size: 32px;
+    max-width: 428px;
+}
+span.stretch2 {
+    display:inline-block;
+    -webkit-transform:scale(2.9,1); /* Safari and Chrome */
+    -moz-transform:scale(2.9,1); /* Firefox */
+    -ms-transform:scale(2.9,1); /* IE 9 */
+    -o-transform:scale(2.9,1); /* Opera */
+    transform:scale(2.9,1); /* W3C */
+    transform-origin: 0 0;
+}
+.rect-blue {
+    background-color: blue;
+    height: 240px;
+    width: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
